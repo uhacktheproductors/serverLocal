@@ -17,7 +17,7 @@ if __name__ == "__main__":
             continue
         try:
             reply = chat(user_input)
-            print(f"\nModel: {reply}\n")
+            print(f"\n{reply}\n")
         except requests.exceptions.ConnectionError:
             print("Error: Could not connect. Is the server running? (python main.py)\n")
         except requests.exceptions.HTTPError as e:
