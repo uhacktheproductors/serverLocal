@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+llama-cpp-python
+pydantic
+requests
+python-dotenv
+huggingface-hub
+sentence-transformers
+numpy
+duckduckgo-search
